@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #88ABFF;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper{
+    width: 50vw;
+    background: #bed0f5;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.projectTitle{
+    color: white;
+    font-size: 20px;
+}
+
+form{
+    margin-top: 2em;
+}
+
+input{
+    display: block;
+    padding: 20px;
+    width: 70%;
+    border-radius: 5px;
+    outline: none;
+    border: 0;
+    font-size: 18px;
+}
+
+::placeholder{
+    /* font-size: 20px; */
+}
+
+textarea{
+    width: 90%;
+    margin-top: 20px;
+    padding: 20px;
+    display: block;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    font-size: 18px;
+    height: 30vh;
+}
+
+form button{
+    padding: 15px 20px;
+    margin-top: 20px;
+    background: transparent;
+    border: 2px solid #88ABFF;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+form button:hover{
+    background: #88ABFF;
+    color: black;
+    cursor: pointer;
+}
+
+.showcaseText{
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+
+.noteContainer{
+    margin-top: 20px;
+}
+
+.noteContainer h2{
+    color: rgba(160, 144, 144, 0.411);
+}
+
+.noteContainer h3{
+    margin-top: 10px;
+}
+
+.noteContainer p{
+    margin-top: 10px;
+}
+
+.btns{
+    margin-top: 20px;
+}
+
+.btns .btn{
+    padding: 10px;
+    border: 0;
+}
+
+.deleteBtn{
+    background: red;
+    color: white;
+}
+
+.editBtn{
+    background: green;
+    color: white;
+}
